@@ -192,7 +192,7 @@ function setExtraInfo(){
 }
 xhr.onreadystatechange = function() {
     if (xhr.readyState === 4) {
-        document.title = title(localStorage.getItem("CQ" + (localStorage.length - 1)).substring(5)) + " Fourm";
+        document.title = title(localStorage.getItem("CQ" + (localStorage.length - 1)).substring(4)) + " Fourm";
         info = xhr.responseXML;
         gobalQ = info.getElementsByTagName("con").length;
         for (x = 0; x != gobalQ; x++) {
