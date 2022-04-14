@@ -15,7 +15,7 @@
   <script>
     function local(val) {
       //This will store the user ans to the local storage which will then open the fourm by the user answer
-      localStorage.setItem("CQ" + localStorage.length, "compactFourm/xml/"+val.value);
+      localStorage.setItem("CQ" + localStorage.length,val.value);
       window.open("fourm.html");
     }
   </script>
