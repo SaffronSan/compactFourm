@@ -212,6 +212,6 @@ xhr.onreadystatechange = function() {
     }
 }
 r.id = 'result';
-xhr.open('GET', "compactFourm/xml/"+localStorage.getItem("CQ" + (localStorage.length - 1)), true);
+xhr.open('GET', "xml/"+localStorage.getItem("CQ" + (localStorage.length - 1)), true);
 xhr.send('');
 info = null;
