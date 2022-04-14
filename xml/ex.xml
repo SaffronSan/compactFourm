@@ -1,0 +1,31 @@
+<data>
+  <type>Send</type>
+  <con>
+    <Q>What is the biggest country in the world?</Q>
+    <A>Russia</A>
+    <A>United States</A>
+    <A>China</A>
+    <A>United Kingdom</A>
+    <ans>1</ans>
+  </con>
+  <con>
+    <Q>Is France in Europe?</Q>
+    <A>No</A>
+    <A>Yes</A>
+    <ans>2</ans>
+  </con>
+  <con>
+    <Q>What is the most populist city in the world?</Q>
+    <A>New York</A>
+    <A>Jakarta</A>
+    <A>Tokyo</A>
+    <A>London</A>
+    <A>Charlotte</A>
+    <ans>3</ans>
+  </con>
+  <info>
+    <title>Example</title>
+    <name>Admin</name>
+    <email>Admin@gmail.com</email>
+  </info>
+</data>

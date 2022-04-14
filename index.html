@@ -1,0 +1,23 @@
+<html>
+
+<head>
+  <title>Compact Request</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="icon" type="image/x-icon" href="/favicon.jpeg">
+</head>
+
+<body>
+  <div class = "request">
+    <label>Type the name of the forum</label><br>
+    <input value="test" type="type" /><button onclick="local(this);">Submit</button>
+  </div>
+  <script>
+    function local() {
+      //This will store the user ans to the local storage which will then open the fourm by the user answer
+      localStorage.setItem("CQ" + localStorage.length, "/xml/"+document.getElementsByTagName('input')[0].value);
+      window.open("fourm.html");
+    }
+  </script>
+</body>
+
+</html>

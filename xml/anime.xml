@@ -1,0 +1,22 @@
+<data>
+  <type>ans</type>
+  <con>
+    <Q>What is best anime?</Q>
+    <A>One Piece</A>
+    <A>Naruto</A>
+    <ans>1</ans>
+  </con>
+  <con>
+    <Q>Who is the main character of One piece?</Q>
+    <A>Sanji</A>
+    <A>Zoro</A>
+    <A>Luffy</A>
+    <A>Nami</A>
+    <ans>3</ans>
+  </con>
+  <info>
+    <title>Example</title>
+    <name>Admin</name>
+    <email>Admin@gmail.com</email>
+  </info>
+</data>
