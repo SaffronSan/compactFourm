@@ -9,12 +9,13 @@
 <body>
   <div class = "request">
     <label>Type the name of the forum</label><br>
-    <input value="test" type="type" /><button onclick="local(this);">Submit</button>
+    <input value="test" type="type" />
+    <button onclick="local(document.getElementsByTagName('input')[0]);">Submit</button>
   </div>
   <script>
-    function local() {
+    function local(val) {
       //This will store the user ans to the local storage which will then open the fourm by the user answer
-      localStorage.setItem("CQ" + localStorage.length, "compactFourm/xml/"+document.getElementsByTagName('input')[0].value);
+      localStorage.setItem("CQ" + localStorage.length, "compactFourm/xml/"+val.value);
       window.open("fourm.html");
     }
   </script>
